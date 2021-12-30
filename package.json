@@ -1,0 +1,20 @@
+{
+  "name": "304assignment11-mern-userapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HirenGamitDcs22/304Assignment11-MERN-UserApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HirenGamitDcs22/304Assignment11-MERN-UserApp/issues"
+  },
+  "homepage": "https://github.com/HirenGamitDcs22/304Assignment11-MERN-UserApp#readme"
+}

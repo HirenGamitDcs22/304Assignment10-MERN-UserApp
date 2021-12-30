@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.use(express.json());
-const port = 4000;
+const PORT = 5000;
 const mongoose = require("mongoose");
 
 const userModel = require("./models/user");
@@ -30,4 +30,4 @@ app.post("/api/registration", (req, res) => {
   return res.json({ data: "registered successfully" });
 });
 
-app.listen(port, () => console.log(`server running on port 4000`));
+app.listen(PORT, () => console.log(`server running on port ${PORT}`));
